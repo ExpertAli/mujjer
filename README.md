@@ -1,2 +1,2 @@
 # mujjer
-Testing github 
+I am teaching myself about github
