@@ -22,14 +22,35 @@
     <title>Industrial Training M&E System</title>
   </head>
   <body>
-    <div class="container-fluid p-3" style="min-height: 100%">
-      <div class="row  justify-content-center  ">
-        <h1 class="text-primary my-0">Login</h1>
+    <div class="container-fluid px-3" style="min-height: 100%">
+      <div class="row  justify-content-center  bg-dark ">
+        <h1 class=" text-primary my-0 p-3">Industrial Training Monitoring and Evaluation System</h1>
       </div>
-      <div class="row bg-dark">
-       <div class="col-6 offset-md-3 text-light">Hello people
+      <div class="row text-center bg-light py-3">
+         
+         <h2 class="col text-danger">Who am i ?</h2>
+      </div>
 
+      <div class="row justify-content-center bg-light py-5">
+       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a></div>
+       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a></div>
+       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+     </div>
+     <div class="row justify-content-center bg-light py-5">
+       <div class="col-3 ">
+        <a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a>
+        <a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a>
+        <a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a>
       </div>
+       
+     </div>
+     
+       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a></div>
+       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a></div>
+       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+     
     </div>
 
     <!-- Optional JavaScript -->
