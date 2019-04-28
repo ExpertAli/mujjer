@@ -39,8 +39,8 @@
      </div>
      
        <div class="row justify-content-center text-center my-4"><a class="btn btn-lg btn-outline-primary text-center" href="studentlogin.php">Student</a></div>
-       <div class="row justify-content-center text-center my-4"><a class="btn btn-lg btn-outline-primary text-center" href="stafflogin.php?user=industry-supervisor">Industrial Supervisor</a></div>
-       <div class="row justify-content-center text-center my-3"><a class="btn btn-lg btn-outline-primary text-center" href="stafflogin.php?user=school-supervisor">School Supervisor</a></div>
+       <div class="row justify-content-center text-center my-4"><a class="btn btn-lg btn-outline-primary text-center" href="stafflogin.php?user=Industry_Supervisor">Industrial Supervisor</a></div>
+       <div class="row justify-content-center text-center my-3"><a class="btn btn-lg btn-outline-primary text-center" href="stafflogin.php?user=School_Supervisor">School Supervisor</a></div>
        <div class="row justify-content-center text-center my-2"><a class="btn btn-lg btn-outline-danger text-center" href="stafflogin.php?user=Admin">Admin</a></div>
       <!--  <div class="row justify-content-center text-center my-2"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
       -->
