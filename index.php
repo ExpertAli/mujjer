@@ -1,12 +1,4 @@
-<?php
-  $filePath='connection.php';
-  
-  if(!file_exists($filePath)){
-    echo 'Connection File not found';
-  }else{
-    include_once $filePath;
-  }
-?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -28,29 +20,30 @@
       </div>
       <div class="row text-center bg-light py-3">
          
-         <h2 class="col text-danger">Who am i ?</h2>
+         <h2 class="col text-dark">Who am i ?</h2>
       </div>
 
-      <div class="row justify-content-center bg-light py-5">
-       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
-       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a></div>
-       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a></div>
-       <div class="col-3 "><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+      <!-- <div class="row justify-content-center bg-light py-5">
+       <div class="col-3 m-0"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+       <div class="col-3 m-0"><a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a></div>
+       <div class="col-3 m-0"><a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a></div>
+       <div class="col-3 m-0"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
      </div>
      <div class="row justify-content-center bg-light py-5">
        <div class="col-3 ">
         <a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a>
         <a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a>
         <a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a>
-      </div>
+      </div> -->
        
      </div>
      
-       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
-       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Supervisor</a></div>
-       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Admin</a></div>
-       <div class="row justify-content-center text-center"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
-     
+       <div class="row justify-content-center text-center my-4"><a class="btn btn-lg btn-outline-primary text-center" href="studentlogin.php">Student</a></div>
+       <div class="row justify-content-center text-center my-4"><a class="btn btn-lg btn-outline-primary text-center" href="stafflogin.php?user=industry-supervisor">Industrial Supervisor</a></div>
+       <div class="row justify-content-center text-center my-3"><a class="btn btn-lg btn-outline-primary text-center" href="stafflogin.php?user=school-supervisor">School Supervisor</a></div>
+       <div class="row justify-content-center text-center my-2"><a class="btn btn-lg btn-outline-danger text-center" href="stafflogin.php?user=Admin">Admin</a></div>
+      <!--  <div class="row justify-content-center text-center my-2"><a class="btn btn-lg btn-outline-primary text-center" href="#">Student</a></div>
+      -->
     </div>
 
     <!-- Optional JavaScript -->
