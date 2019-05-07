@@ -7,8 +7,8 @@
   }else{
     include_once $filePath;
       if($_SERVER['REQUEST_METHOD']=='GET'){
-                    if(isset($_GET['id'])){
-                        $id=$_GET['id'];
+                    if(isset($_GET['delete'])){
+                        $id=$_GET['delete'];
                         
                         $slct="DELETE  FROM report WHERE id='".$id."' LIMIT 1";
                        echo $slct;
