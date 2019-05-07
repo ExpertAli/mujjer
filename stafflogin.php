@@ -21,7 +21,7 @@
             break;
             case 'School_Supervisor': header('location:SchoolSupervisor/index.php');
             break;
-            case 'Industry_Supervisor': header('location:IndustrySupervisor/index.php');
+            case 'Industrial_Supervisor': header('location:IndustrySupervisor/index.php');
             break;
           }
 

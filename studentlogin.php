@@ -8,12 +8,14 @@
     session_start();
     if($_SERVER['REQUEST_METHOD']=='POST'){
       if(isset($_POST['login']) && !empty($_POST['login'])){
-        print_r($_POST);
-        $sql="SELECT * FROM student WHERE email='".$_POST['email']."' AND password='".$_POST['Password']."'";
+        //print_r($_POST);
+        $sql="SELECT * FROM student WHERE email='".$_POST['email']."' AND password='".md5($_POST['Password'])."'";
         $result=$conn->query($sql) or die($conn->error);
         if($result->num_rows == 1){
           $row=$result->fetch_assoc();
-          print_r($row);
+         // print_r($row);
+          $_SESSION['studentid']=$row['id'];
+          header("location:Student/index.php");
 
         }else{
           $error['student']= '<div class="alert alert-danger px-5 py-2 mx-5">Incorrect Email and Password! Please Try Again</div>';

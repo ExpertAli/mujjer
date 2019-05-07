@@ -55,8 +55,8 @@
         
       
               <form class="form col-8" action="" method="post">
-                <div class="form-group  ">
-                      <label ><h1 class="text-primary border-bottom border-dark"> Edit Staff Records</h1> </label>
+                <div class="form-group  text-center p-2">
+                      <h1 class="text-primary border-bottom border-dark "> EDIT STAFF RECORDS</h1> 
                   </div>
                    <div class="form-group  ">
                       <label >Staff ID</label>

@@ -29,6 +29,38 @@
                   <a class="dropdown-item" href="/industrial/SchoolSupervisor/Student/view.php">Records</a>
                  
                 </div>
+              <!--                Training-->
+               <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/industrial/SchoolSupervisor/Training/index.php">Register</a>
+                <a class="dropdown-item" href="/industrial/SchoolSupervisor/Training/view.php">Records</a>
+               
+              </div>
+              </li>
+               <!--                Activity-->
+               <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Activity
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/industrial/SchoolSupervisor/Activity/index.php">Records</a>
+                <!-- <a class="dropdown-item" href="/industrial/SchoolSupervisor/Activity/update.php">Records</a> -->
+               
+              </div>
+              </li>
+               <!--                Activity-->
+               <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Report
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <!-- <a class="dropdown-item" href="/industrial/SchoolSupervisor/Report/index.php">New</a> -->
+                <a class="dropdown-item" href="/industrial/SchoolSupervisor/Report/view.php">Records</a>
+               
+              </div>
               </li>
               <li class="nav-item"> <a class="nav-link" href="/industrial/SchoolSupervisor/password.php">Change Password</a>
 

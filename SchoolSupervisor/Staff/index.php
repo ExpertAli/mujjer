@@ -43,8 +43,8 @@
            
              
               <form class="form col-8" action="" method="post">
-                <div class="form-group  ">
-                      <label ><h1 class="text-primary border-bottom border-dark"> STAFF REGISTRATION</h1> </label>
+                <div class="form-group  text-center p-2">
+                      <h1 class="text-primary border-bottom border-dark "> INDUSTRIAL SUPERVISOR REGISTRATION</h1> 
                   </div>
                   <div class="form-group  ">
                       <label >Fullname</label>
@@ -80,12 +80,12 @@
                       <input class="form-control" type="password" placeholder="Password" name="password" required>
                   </div>
                   <div class="form-group  ">
-                      <label >Role</label>
-                      <select name="role" class="form-control" required>
-                        <option class="dropdown-item">Choose option</option>
-                        <option>School_Supervisor</option>
-                        <option>Industrial_Supervisor</option>
-                        <option>Admin</option>
+                      <!-- <label >Role</label> -->
+                      <select name="role" class="form-control" required hidden="hidden">
+                        
+                        
+                        <option selected="">Industrial_Supervisor</option>
+                        
                       </select>
                   </div>
 

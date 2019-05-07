@@ -47,16 +47,16 @@
     <title>Client | Registration</title>
   </head>
   <body>
-    <div class="container-fluid bg-secondary p-3">
+    <div class="container-fluid y p-3">
 <!--        navbar-->
 <?php include "../navbar.php"; ?>
 <!--        <div class="row"></div>-->
-     <div class="row justify-content-center mx-5 pb-2" style="background: #ccc;">
+     <div class="row justify-content-center mx-5 pb-2" >
         
       
               <form class="form col-8" action="" method="post">
-                <div class="form-group  ">
-                      <label ><h1 class="text-primary border-bottom border-dark"> Edit Staff Records</h1> </label>
+                <div class="form-group  text-center p-2">
+                      <h1 class="text-primary border-bottom border-dark "> EDIT STUDENT RECORDS </h1> 
                   </div>
                    <div class="form-group  ">
                       <label >Staff ID</label>

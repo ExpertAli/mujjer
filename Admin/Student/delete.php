@@ -10,7 +10,7 @@
                     if(isset($_GET['id'])){
                         $id=$_GET['id'];
                         
-                        $slct="DELETE * FROM student WHERE id='".$id."' LIMIT 1";
+                        $slct="DELETE  FROM student WHERE id='".$id."' LIMIT 1";
                        echo $slct;
                         if($conn->query($slct)){
                              $fdb='<div class="alert alert-success mx-5 mb-0 pl-5">Successfully Deleted 1 record </div>';
