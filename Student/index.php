@@ -46,7 +46,7 @@
              </div>
              <hr />
              <div class="col-8 offset-md-2 text-center">
-               <h1 class="text-success border border-success mb-0 pb-2">Training Information</h1>
+               <h1 class="text-success border border-success mb-0 pb-2  ">Training Information</h1>
                <div class="row bg-success text-white  ">
                 
                 <div class="col-4 m-2 p-2">Company</div><div class="col-7"><?php echo $row['company']; ?></div>
@@ -55,8 +55,8 @@
                 <div class="col-4 m-2 p-2">Phone Number</div><div class="col-7"><?php echo $row['phone_number']; ?></div>
                 <div class="col-4 m-2 p-2">Date Started</div><div class="col-7"><?php echo $row['startdate']; ?></div>
                 <div class="col-4 m-2 p-2">Date of Finish</div><div class="col-7"><?php echo $row['enddate']; ?></div>
-                <div class="col-4 m-2 p-2">School Supervisor</div><div class="col-7"><?php echo $row['schoolsupervisor']; ?></div>
-                <div class="col-4 m-2 p-2">Industry Supervisor</div><div class="col-7"><?php echo $row['industrysupervisor']; ?></div>
+                <!-- <div class="col-4 m-2 p-2">School Supervisor</div><div class="col-7"><?php echo $row['schoolsupervisor']; ?></div>
+                <div class="col-4 m-2 p-2">Industry Supervisor</div><div class="col-7"><?php echo $row['industrysupervisor']; ?></div> -->
                </div>
 
              </div>

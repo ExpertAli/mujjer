@@ -33,6 +33,7 @@
                  <thead >
                 <tr>
                   <th scope="col">Id</th>
+                  <th scope="col">Student ID</th>
                   <th scope="col">Summary</th>
                   <th scope="col">Feedback</th>
                   
@@ -49,7 +50,7 @@
                    while($row=$result->fetch_assoc()){
                      echo ' <tr>
                   <th scope="row" class="text-primary">'.$row['id'].'</th>
-                  
+                  <td >'.$row['student'].'</td>
                   <td >'.$row['summary'].'</td>
                   <td >'.$row['feedback'].'</td>
                   <td >'.$row['posted'].'</td>

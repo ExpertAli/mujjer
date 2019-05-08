@@ -56,8 +56,8 @@
         
       
               <form class="form col-8" action="" method="post" enctype="multipart/form-data">
-                <div class="form-group  ">
-                      <label ><h1 class="text-primary border-bottom border-dark"> Edit Staff Records</h1> </label>
+                <div class="form-group text-center">
+                      <h1 class="text-primary border-bottom border-dark"> Edit Staff Records</h1> 
                   </div>
                    
                   <div class="form-group mb-2" style="height: 400px;">

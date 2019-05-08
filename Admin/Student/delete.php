@@ -43,7 +43,7 @@
          <div class="col-sm-8 offset-md-2 text-center">
            
            <div class="col-sm-8 offset-md-2 text-center">
-             <div class="jumbotron">
+             <div class="jumbotron bg-danger">
                  <div class="display-4">Delete Student</div>
                   <div class="lead">This is a Industrial Training and Evaluation System</div>
                  <hr class="my-4">

@@ -8,7 +8,7 @@
     session_start();
     if($_SERVER['REQUEST_METHOD']=='POST'){
       if(isset($_POST['login']) && !empty($_POST['login'])){
-        print_r($_POST);
+       // print_r($_POST);
 
         $sql="SELECT * FROM staff WHERE email='".$_POST['email']."' AND password='".md5($_POST['Password'])."' AND role='".$_POST['user']."'";
         $result=$conn->query($sql) or die($conn->error);

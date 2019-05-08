@@ -55,7 +55,7 @@
         
       
               <form class="form col-8" action="" method="post">
-                <div class="form-group  ">
+                <div class="form-group text-center ">
                       <h1 class="text-primary border-bottom border-dark"> Edit Student Report </h1> 
                   </div>
                    

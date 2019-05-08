@@ -1,5 +1,6 @@
+      <div class="row justify-content-center p-2 my-2"><h1 >Industrial Training Monitoring and Evaluation System </h1></div>
        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-5 mb-2">
-          <a class="navbar-brand text-warning" href="/industrial/Admin/index.php">Industrial Training M&E System</a>
+          <!-- <a class="navbar-brand text-warning" href="/industrial/Admin/index.php">Industrial Training M&E System</a> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

@@ -1,5 +1,5 @@
-       <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-5 mb-2">
-          <a class="navbar-brand text-warning" href="/industrial/SchoolSupervisor/index.php">Industrial Training M&E System</a>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-primary mx-5 mb-2">
+          <a class="navbar-brand text-white " href="/industrial/SchoolSupervisor/index.php">Industrial Training M&E System</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -64,7 +64,7 @@
               </li>
               <li class="nav-item"> <a class="nav-link" href="/industrial/SchoolSupervisor/password.php">Change Password</a>
 
-                 <li class="nav-item"> <a class="btn btn-primary" href="/industrial/logout.php">Logout</a>
+                 <li class="nav-item"> <a class="btn btn-outline-light" href="/industrial/logout.php">Logout</a>
                 </li>
             </ul>
           </div>

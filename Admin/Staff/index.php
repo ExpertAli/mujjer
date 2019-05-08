@@ -43,8 +43,8 @@
            
              
               <form class="form col-8" action="" method="post">
-                <div class="form-group  ">
-                      <label ><h1 class="text-primary border-bottom border-dark"> STAFF REGISTRATION</h1> </label>
+                <div class="form-group  text-center">
+                      <h1 class="text-primary border-bottom border-dark"> STAFF REGISTRATION</h1> 
                   </div>
                   <div class="form-group  ">
                       <label >Fullname</label>
